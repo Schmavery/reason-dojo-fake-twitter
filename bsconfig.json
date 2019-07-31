@@ -1,0 +1,8 @@
+{
+  "name": "fake-twitter",
+  "sources": "src",
+  "bs-dependencies": ["reason-urql", "reason-react"],
+  "ppx-flags": ["graphql_ppx/ppx"],
+  "refmt": 3,
+  "reason": {"react-jsx": 3}
+}
