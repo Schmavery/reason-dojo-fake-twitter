@@ -6,7 +6,8 @@
   "scripts": {
     "build": "bsb -make-world && fpack build --dev ./lib/js/src/Index.js",
     "clean": "bsb -clean-world",
-    "serve": "npx http-server -o --cors"
+    "serve": "npx http-server . -c-1",
+    "query": "yarn send-introspection-query"
   },
   "dependencies": {
     "reason-react": "^0.7.0",
