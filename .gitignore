@@ -1,3 +1,5 @@
 lib
 bundle
 .merlin
+.graphql_ppx_cache
+graphql_schema.json
